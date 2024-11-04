@@ -36,14 +36,16 @@ background-color: blue;
 <h1>HTML Assignment #3</h1>
 
 <!-- Table 1 -->
+
 <table class="middle" id="table-1">
     <tr>
         <td id="t11">Cell 1</td>
         <td id="t12" class="center">Cell 2</td>
         <td id="t13" class="right">Cell 3</td>
+			<td id="t21" colspan="6">Cell 4</td>
     </tr>
     <tr>
-        <td id="t21">Cell 4</td>
+    
         <td id="t22" class="center">Cell 5</td>
         <td id="t23" class="right">Cell 6</td>
     </tr>
@@ -103,12 +105,12 @@ background-color: blue;
 <!-- Table 3 -->
 <table class="middle" id="table-3">
     <tr class="green">
-        <td  id="t-image">Green Row</td>
+        <td >Green Row</td>
     </tr>
-    <tr>
-        <td ><img src="your-image-url-here.jpg" alt="Description of Image" style="width:100%;"></td>
-    </tr>
-    <tr>
+   <td id="t-image">
+    Green Row
+    <img src="your-image-url-here.jpg" alt="Description of Image" style="width:100%;">
+</td>
         <td>Row 2, Col 1</td>
     </tr>
     <tr>
