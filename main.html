@@ -7,10 +7,128 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Assignment 3</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        table.middle {
+            border-collapse: collapse;
+            margin: 20px auto;
+            border: 1px solid black;
+            padding: 1px;
+			spacing:1px;
+        }
+        table.middle td {
+            border: 1px solid black;
+            padding: 1px;
+        }
+        .green {
+            background-color: green;
+            color: white;
+        }
+        .blue {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<h1>HTML Assignment #3</h1>
+
+<!-- Table 1 -->
+<table class="middle" id="table-1">
+    <tr>
+        <td id="t11">Cell 1</td>
+        <td id="t12" class="center">Cell 2</td>
+        <td id="t13" class="right">Cell 3</td>
+    </tr>
+    <tr>
+        <td id="t21">Cell 4</td>
+        <td id="t22">Cell 5</td>
+        <td id="t23">Cell 6</td>
+    </tr>
+    <tr>
+        <td id="t31">Cell 7</td>
+        <td id="t32" class="center">Cell 8</td>
+        <td id="t33" class="right">Cell 9</td>
+    </tr>
+</table>
+
+<!-- Table 2 -->
+<table class="middle" id="table-2">
+    <tr>
+        <td id="t21" colspan="6">Table 2: This is a single cell spanning 6 columns</td>
+    </tr>
+    <tr>
+        <td>Cell 1</td>
+        <td>Cell 2</td>
+        <td>Cell 3</td>
+        <td>Cell 4</td>
+        <td>Cell 5</td>
+        <td>Cell 6</td>
+    </tr>
+    <tr>
+        <td>Cell 7</td>
+        <td>Cell 8</td>
+        <td>Cell 9</td>
+        <td>Cell 10</td>
+        <td>Cell 11</td>
+        <td>Cell 12</td>
+    </tr>
+    <tr>
+        <td>Cell 13</td>
+        <td>Cell 14</td>
+        <td>Cell 15</td>
+        <td>Cell 16</td>
+        <td>Cell 17</td>
+        <td>Cell 18</td>
+    </tr>
+    <tr>
+        <td>Cell 19</td>
+        <td>Cell 20</td>
+        <td>Cell 21</td>
+        <td>Cell 22</td>
+        <td>Cell 23</td>
+        <td>Cell 24</td>
+    </tr>
+    <tr>
+        <td>Cell 25</td>
+        <td>Cell 26</td>
+        <td>Cell 27</td>
+        <td>Cell 28</td>
+        <td>Cell 29</td>
+        <td>Cell 30</td>
+    </tr>
+</table>
+
+<!-- Table 3 -->
+<table class="middle" id="table-3">
+    <tr class="green">
+        <td id="t-image">Green Row</td>
+    </tr>
+    <tr>
+        <td><img src="https://via.placeholder.com/150" alt="Placeholder Image"></td>
+    </tr>
+    <tr>
+        <td>Cell 1</td>
+    </tr>
+    <tr>
+        <td>Cell 2</td>
+    </tr>
+    <tr class="blue">
+        <td>Blue Row</td>
+    </tr>
+</table>
 
 </body>
-
 </html>
+
+
